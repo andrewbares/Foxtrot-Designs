@@ -9,10 +9,10 @@
                		<li><a href="#" id="twitter-icon" class="icon"><i class="fa fa-twitter"></i>Follow us on Twitter</a></li>
             	</ul>
 			</div>
-			<p>Copyright 2014 &copy;<br>
+			<div id="copyright">Copyright 2014 &copy;<br>
 				Foxtrot Designs LLC <br>
 				Tucson, AZ
-			</p>
+			</div>
 		</footer>
 		<!-- End Footer-->
 	</div>
