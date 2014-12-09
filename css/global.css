@@ -1,0 +1,166 @@
+/* header and footer specific CSS goes here, along with any CSS that will be used across the entire site */
+@import url(normalize.css);
+@import url(font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Sancreek);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+a {
+  color: #9f111b;
+}
+
+body {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 100;
+  background: #386189;
+}
+
+/* BEGIN HEADER STYLE */
+#logo-hero {
+  width: 96px;
+  float: left;
+  margin-left: 32px;
+}
+
+header {
+  background: #386189;
+  background-image: -ms-linear-gradient(top, #386189 0%, #1F4060 100%);
+  background-image: -moz-linear-gradient(top, #386189 0%, #1F4060 100%);
+  background-image: -o-linear-gradient(top, #386189 0%, #1F4060 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #386189), color-stop(1, #1F4060));
+  background-image: -webkit-linear-gradient(top, #386189 0%, #1F4060 100%);
+  background-image: linear-gradient(to bottom, #386189 0%, #1F4060 100%);
+  height: 120px;
+  border: 1px solid transparent;
+  overflow: auto;
+  width: 100%;
+}
+
+#hero-nav {
+  float: left;
+  -moz-transform: translate(0%, 20%);
+  -webkit-transform: translate(0%, 20%);
+  transform: translate(0%, 20%);
+  font-weight: 400;
+}
+
+#hero-nav ul {
+  list-style-type: none;
+  color: #fff;
+}
+
+#hero-nav ul li {
+  display: inline-block;
+}
+
+#hero-nav ul li:not(:last-child) {
+  margin-right: 6rem;
+}
+
+#hero-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* END HEADER STYLE */
+/* BEGIN FOOTER STYLE */
+footer {
+  background: #424242;
+  border-top: 4px solid #8f8f8f;
+  color: #fff;
+  padding: 20px 0;
+  overflow: auto;
+  width: 100%;
+}
+
+.footer-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer #social {
+  text-align: center;
+  float: left;
+}
+
+footer #social ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer #social ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer #copyright {
+  float: right;
+}
+
+#social .fa {
+  margin: 10px;
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.5em;
+  transition: all 0.2s ease-in;
+}
+
+.social .fa:hover {
+  background: #fff;
+  border: 2px solid #fff;
+}
+
+.fa-facebook {
+  color: #5E7FC3;
+  border: 2px solid #5E7FC3;
+}
+
+.fa-google-plus {
+  color: #DD4B39;
+  border: 2px solid #DD4B39;
+}
+
+.fa-twitter {
+  color: #00ACEE;
+  border: 2px solid #00ACEE;
+}
+
+.copyright {
+  float: left;
+}
+
+#bottom-nav ul {
+  list-style-type: none;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+#bottom-nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+#bottom-nav ul li a {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+/* END FOOTER STYLE */
+/* currently selected nav item */
+.nav-selected {
+  padding: 14px;
+  border-radius: 3px;
+  box-shadow: inset 1px 1px 2px 0px #000000;
+  background: #1B3F5F;
+  border-bottom: 1px solid #12304A;
+  border-right: 1px solid #12304A;
+}
+
+/*# sourceMappingURL=global.css.map */

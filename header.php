@@ -15,7 +15,7 @@
     <meta charset="utf-8" />
     
     <!--stylesheet for header and footer-->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
         
     <!--jQuery-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
