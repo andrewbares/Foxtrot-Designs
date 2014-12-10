@@ -37,30 +37,43 @@ header {
   background-image: linear-gradient(to bottom, #386189 0%, #1F4060 100%);
   height: 120px;
   border: 1px solid transparent;
-  overflow: auto;
   width: 100%;
 }
 
 #hero-nav {
-  float: left;
-  -moz-transform: translate(0%, 20%);
+  /*-moz-transform: translate(0%, 20%);
   -webkit-transform: translate(0%, 20%);
-  transform: translate(0%, 20%);
+  transform: translate(0%, 20%);*/
   font-weight: 400;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding-left: 160px; /* make space for image on left */
+  max-width: 1000px;
 }
 
 #hero-nav ul {
   list-style-type: none;
   color: #fff;
+  display: table;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  table-layout: fixed; /* makes each cell be equal width (otherwise longer text ones have greater width) */
+  padding-left: 0;
+  padding-right: 24px;
 }
 
 #hero-nav ul li {
-  display: inline-block;
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
 }
 
-#hero-nav ul li:not(:last-child) {
+/*#hero-nav ul li:not(:last-child) {
   margin-right: 6rem;
-}
+}*/
 
 #hero-nav ul li a {
   text-decoration: none;
@@ -154,7 +167,7 @@ footer #copyright {
 
 /* END FOOTER STYLE */
 /* currently selected nav item */
-.nav-selected {
+.nav-selected a {
   padding: 14px;
   border-radius: 3px;
   box-shadow: inset 1px 1px 2px 0px #000000;
@@ -164,3 +177,4 @@ footer #copyright {
 }
 
 /*# sourceMappingURL=global.css.map */
+
