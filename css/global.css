@@ -166,15 +166,50 @@ footer #copyright {
 }
 
 /* END FOOTER STYLE */
-/* currently selected nav item */
-.nav-selected a {
-  padding: 14px;
-  border-radius: 3px;
-  box-shadow: inset 1px 1px 2px 0px #000000;
-  background: #1B3F5F;
-  border-bottom: 1px solid #12304A;
-  border-right: 1px solid #12304A;
+
+
+@media screen and (min-width: 691px) {
+  
+  /* currently selected nav item */
+  .nav-selected a {
+    padding: 14px;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 2px 0px #000000;
+    background: #1B3F5F;
+    border-bottom: 1px solid #12304A;
+    border-right: 1px solid #12304A;
+  }
+  
 }
 
 /*# sourceMappingURL=global.css.map */
 
+@media screen and (max-width: 690px) {
+  
+  header {
+    height: auto;
+    min-height: 120px;
+  }
+  
+  #hero-nav {
+    padding: 120px 0 0 0;
+    height: auto;
+    display: block;
+  }
+  
+  #hero-nav ul {
+    height: auto;
+    display: block;
+    padding: 0;
+  }
+  
+  #hero-nav ul li {
+    display: block;
+  }
+  
+  #hero-nav ul li a {
+    display: block; /* make the entire horizontal line clickable, not just the text */
+    padding: 12px 0;
+  }
+  
+}
