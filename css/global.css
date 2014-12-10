@@ -27,7 +27,7 @@ body {
   margin-left: 32px;
 }
 
-header {
+#hero-header {
   background: #386189;
   background-image: -ms-linear-gradient(top, #386189 0%, #1F4060 100%);
   background-image: -moz-linear-gradient(top, #386189 0%, #1F4060 100%);
@@ -186,9 +186,8 @@ footer #copyright {
 
 @media screen and (max-width: 690px) {
   
-  header {
-    height: auto;
-    min-height: 120px;
+  #hero-header {
+    overflow: hidden;
   }
   
   #hero-nav {
@@ -210,6 +209,21 @@ footer #copyright {
   #hero-nav ul li a {
     display: block; /* make the entire horizontal line clickable, not just the text */
     padding: 12px 0;
+  }
+  
+  .expanded {
+    height: auto !important;
+  }
+  
+  /* currently selected nav item */
+  #hero-nav .nav-selected a {
+    position: absolute;
+    left: 170px;
+    top: 35px;
+  }
+  
+  .expanded #hero-nav .nav-selected a {
+    position: static;
   }
   
 }

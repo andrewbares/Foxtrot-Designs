@@ -35,7 +35,7 @@
         
         $(document).ready(function()
         {
-            $("#" + selectedNavId).addClass("nav-selected");
+		$("#" + selectedNavId).addClass("nav-selected");
         });
     
     </script>
