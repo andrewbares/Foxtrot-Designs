@@ -8,6 +8,10 @@
   -moz-box-sizing: border-box;
 }
 
+html {
+  min-width: 320px;
+}
+
 a {
   color: #9f111b;
 }
@@ -194,6 +198,8 @@ footer #copyright {
     padding: 120px 0 0 0;
     height: auto;
     display: block;
+    background: url("../img/menu.png") no-repeat;
+    background-position: 96% 33px;
   }
   
   #hero-nav ul {
