@@ -42,7 +42,7 @@
                     <li id="projects"><a href="projects.php">Projects</a></li>
                     <li id="news"><a href="news.php">News</a></li>
                     <li id="pricing"><a href="pricing.php">Pricing</a></li>
-                    <li id="aboutus"><a href="aboutus.php"></a>About Us</li>
+                    <li id="aboutus"><a href="aboutus.php">About Us</a></li>
                 </ul>
             </nav>
             <!-- End Navigation-->
