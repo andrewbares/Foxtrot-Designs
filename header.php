@@ -33,7 +33,7 @@
 <body>
     <div class="wrapper hero-wrapper">
         <!-- Start Page Header -->
-        <header>
+        <header onclick="header_click();">
             <img id="logo-hero" src="img/logo.png" alt="Foxtrot logo"/>
             <!-- Start Navigation-->
             <nav id="hero-nav">
