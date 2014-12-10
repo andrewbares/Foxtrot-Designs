@@ -100,24 +100,26 @@ footer {
   margin: 0 auto;
 }
 
-footer #social {
+#social {
   float: left;
 }
 
-footer #social ul {
+#social ul {
   list-style: none;
   padding-left: 0;
   padding: 0;
   margin: 0;
 }
 
-footer #social ul li a {
+#social ul li a {
   color: #fff;
   text-decoration: none;
 }
 
-footer #copyright {
+#copyright {
   float: right;
+  text-align: right;
+  margin-top: 12px;
 }
 
 #social .fa {
@@ -233,7 +235,7 @@ footer #copyright {
   
 }
 
-@media screen and (min-width: 601px) and (max-width: 850px) {
+/*@media screen and (min-width: 601px) and (max-width: 850px) {
   
   #bottom-nav ul {
     width: 33%;
@@ -245,9 +247,9 @@ footer #copyright {
     display: block;
     margin: 0.5rem 0;
   }
-}
+}*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   
   /*#social {
     float: none;
@@ -260,11 +262,25 @@ footer #copyright {
   
   #bottom-nav {
     clear: both;
+    padding-top: 12px;
   }
 }
 
-@media screen and (max-width: 320px) {
+/* make the footer social and copyright individually horizontally align center, with social on top of copyright */
+@media screen and (max-width: 460px) {
+  
+  #social {
+    float: none;
+    text-align: center;
+  }
+  
+  #copyright {
+    float: none;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 6px;
+  }
+  
   #bottom-nav {
-    background: red;
   }
 }
