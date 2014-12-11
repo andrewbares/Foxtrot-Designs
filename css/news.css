@@ -1,1 +1,18 @@
 /* page-specific CSS for the News page goes here */
+
+.content-wrapper{
+	width: 80%;
+	margin: 2rem auto;
+}
+
+article.columns{
+	overflow: auto;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+article.columns img{
+	float: left;
+	max-width: 300px;
+	padding: 36px;
+}
