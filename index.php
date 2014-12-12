@@ -10,7 +10,7 @@ include "header.php";
 
 
 <div id="slide">
-	<img src="images/someImage.jpg" alt="Main Page Image">
+	<!--<img src="img/featured.jpg" alt="Main Page Image">-->
 </div>
 <div id="content-info">
 	<div id="content-info-services">
@@ -42,7 +42,7 @@ include "header.php";
 	
 			Customers can finally browse our selection and make purchases online, right from their iPhone - Tim Sockets, wallsockets.com</p>
 		</div>
-		<img src="images/someImage5.jpg" alt="iPhone Mockup Image"/>
+		<img src="img/quote1.png" alt="Mobile friendly site on a Windows Phone. Lumia 800 PSD from livven.me."/>
 		
 	</div>
 	<div id="content-info-customers">
@@ -51,7 +51,7 @@ include "header.php";
 	
 			Foxtrot Design's online marketing helped bring in an unbelievable amount of new customers - Pad Lu, tieyourthai.com</p>
 		</div>
-		<img src="images/someImage6.jpg" alt="Search Results Image"/>
+		<img src="img/quote2.jpg" alt="People dining at restaurant. Image from http://adventurejay.com/blog/index.php?m=05&y=13 under creative commons."/>
 	</div>
 </div>
 			
