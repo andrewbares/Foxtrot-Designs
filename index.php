@@ -9,7 +9,7 @@ include "header.php";
 ?>
 
 
-<div id="slide">
+<div id="slide" title="Lumia 2520 PSD from https://dribbble.com/shots/1291841--PSD-Nokia-Lumia-2520-Mockup, Lumia 800 PSD from livven.me, MacBook from https://dribbble.com/shots/1307753-retina-mbp-freebie">
 	<!--<img src="img/featured.jpg" alt="Main Page Image">-->
 </div>
 <div id="content-info">
@@ -42,7 +42,7 @@ include "header.php";
 	
 			Customers can finally browse our selection and make purchases online, right from their iPhone - Tim Sockets, wallsockets.com</p>
 		</div>
-		<img src="img/quote1.png" alt="Mobile friendly site on a Windows Phone. Lumia 800 PSD from livven.me."/>
+		<img src="img/quote1.png" alt="Mobile friendly site on a Windows Phone." title="Lumia 800 PSD from livven.me."/>
 		
 	</div>
 	<div id="content-info-customers">
