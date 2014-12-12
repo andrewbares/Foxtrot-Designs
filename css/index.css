@@ -75,5 +75,25 @@
 }
 
 /* Add responsive CSS here */
+@media screen and (max-width: 800px) {
+    
+    .column {
+        width: 100%;
+        float: none;
+        clear: both;
+        min-height: 0;
+        margin-bottom: 80px;
+    }
+    
+    .column img {
+        width: 30%;
+        float: left;
+    }
+    
+    .column-center img {
+        float: right;
+    }
+    
+}
 
 /*# sourceMappingURL=index.css.map */
