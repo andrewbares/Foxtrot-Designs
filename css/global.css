@@ -85,18 +85,6 @@ body {
 }
 
 /* END HEADER STYLE */
-
-
-
-/* restrict page size */
-.content-wrapper {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
 /* BEGIN FOOTER STYLE */
 footer {
   background: #424242;
