@@ -16,19 +16,19 @@ include "header.php";
 	<div id="content-info-services">
 		<!-- Left content box -->
 		<div class="column column-left">
-		<img src="images/someImage2.jpg" alt="Content Image (left)">
+		<img src="img/service1.jpg" alt="Screenshot of CSS document in editor">
 		<h3 class="content-info-headers">Website Design</h3>
 		<p>We make websites that rock. Your customers will love our sites. We'll give you a professional look and feel.</p>
 		</div>
 		<!-- Center content box-->
 		<div class="column column-center">
-		<img src="images/someImage3.jpg" alt="Content Image (Center)">
+		<img src="img/service2.jpg" alt="Screenshot of Google Search advertisements">
 		<h3 class="content-info-headers">Online Marketing</h3>
 		<p>Make sure your business has a solid online presence. We have years of expertise to boost your business.</p>
 		</div>
 		<!-- Right content box-->
 		<div class="column column-right">
-		<img src="iamges/someImage4.jpg" alt="Content Image (Right)">
+		<img src="img/service3.jpg" alt="Screenshot of email inbox">
 		<h3 class="content-info-headers">Mailing Lists</h3>
 		<p>Reach out to your customer base to encourage future business.</p>
 		</div>
