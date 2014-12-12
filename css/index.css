@@ -1,5 +1,5 @@
 #slide {
-  min-height: 350px;
+  height: 350px;
   width: 100%;
   background: black url("../img/featured.png") no-repeat center;
   background-size: cover;
@@ -8,6 +8,7 @@
 #content-info {
   width: 80%;
   margin: 4rem auto;
+  max-width: 1100px;
 }
 
 .column {
@@ -36,64 +37,109 @@
   margin: auto 5%;
 }
 
-#content-info-mobile, #content-info-customers {
-  border: 1px solid transparent;
-  overflow: auto;
-  width: 100%;
-  line-height: 1.5;
+.quote {
+    /*border: 1px solid transparent;*/
+    /*overflow: auto;*/
+    width: 100%;
+    line-height: 1.5;
+    clear: both;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.quotes {
+/*.quotes {
   margin: 0 0 2em 0;
   padding: 1em;
   width: 60%;
-}
+}*/
 
-.quotes p {
+
+.quote p {
   font-size: 2rem;
 }
 
-#content-info-mobile .quotes {
-  float: left;
+.quote p:last-of-type {
+    font-size: 1.5rem;
 }
 
-#content-info-mobile img, #content-info-customers img {
+/*#content-info-mobile .quotes {
+  float: left;
+}*/
+
+.quote img {
   width: 25%;
-  margin-top: 4rem;
+  margin-top: 2.8rem;
+  margin-bottom: 24px;
 }
 
 #content-info-mobile img {
   float: right;
+  margin-left: 24px;
+  max-width: 200px;
 }
 
 #content-info-customers img {
   float: left;
+  margin-right: 24px;
 }
 
-#content-info-customers .quotes {
+/*#content-info-customers .quotes {
   float: right;
-}
+}*/
 
 /* Add responsive CSS here */
 @media screen and (max-width: 800px) {
+    
+    .column-center {
+        display: block;
+        margin: 0;
+    }
     
     .column {
         width: 100%;
         float: none;
         clear: both;
         min-height: 0;
-        margin-bottom: 80px;
+        margin-bottom: 48px;
     }
     
     .column img {
-        width: 30%;
+        width: 40%;
         float: left;
+        margin-right: 24px;
+        margin-bottom: 48px;
+        min-width: 200px;
     }
     
-    .column-center img {
-        float: right;
+    .quote p {
+        font-size: 1.5rem;
     }
     
+    .quote p:last-of-type {
+        font-size: 1.25rem;
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+    
+    .column {
+        margin-bottom: 72px;
+    }
+    
+    .column img {
+        float: none;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    
+    .quote p {
+        font-size: 1.4rem;
+    }
+    
+    .quote p:last-of-type {
+        font-size: 1.2rem;
+    }
 }
 
 /*# sourceMappingURL=index.css.map */
