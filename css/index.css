@@ -1,7 +1,8 @@
 #slide {
   min-height: 350px;
   width: 100%;
-  background: #000;
+  background: black url("../img/featured.png") no-repeat center;
+  background-size: cover;
 }
 
 #content-info {
@@ -58,7 +59,6 @@
 
 #content-info-mobile img, #content-info-customers img {
   width: 25%;
-  background: #fff;
   margin-top: 4rem;
 }
 
