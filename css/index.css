@@ -76,4 +76,220 @@
 
 /* Add responsive CSS here */
 
-/*# sourceMappingURL=index.css.map */
+
+@media screen and (max-width:480px){
+
+
+      #content-info{
+        width: 100%;
+      }
+
+      #content-info-services{
+        width: 75%;
+        text-align: center;
+      }
+
+      #content-info-services img {
+        float: center;
+        margin-top: 8%;
+        width: 75%;
+        height: 255px;
+        margin-left: 29%;
+        margin-bottom: 4%;
+      }
+
+      .content-info-headers{
+        width: 100%;
+        font-size: 1.3rem;
+        margin-left: 14%;
+      }
+
+      #content-info-services p {
+        font-size: 0.9rem;
+        width: 50%;
+        margin-left: 39%;
+      }
+
+      #content-info-mobile{
+        width: 85%;
+        margin-top: 10%;
+        clear: none;
+        display: inline-block;
+        margin-left: 10%;
+      }
+
+      .quotes  {
+        font-size: 80%;
+        width: 50%;
+        float: left;
+      }
+
+      #content-info-mobile img {
+        float: right;
+        width: 35%;
+        height: 120px;
+        margin-right: 10%;
+        margin-top: 4%;
+      }
+
+      #content-info-customers{
+        width: 85%;
+        margin-top: 5%;
+        clear: none;
+        display: inline-block;
+        margin-left: 10%;
+        margin-bottom: 10%;
+      }
+
+      #content-info-customers img {
+        float: right;
+        width: 35%;
+        height: 120px;
+        margin-right: 10%;
+        margin-top: 4%;
+      }
+
+}
+
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+      #content-info{
+        width: 100%;
+      }
+
+      #content-info-services{
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+      }
+
+      /* Left Column */
+      .column-left img {
+        float:left;
+        width: 250px;
+        height: 220px;
+        margin-left: 6%;
+      }
+
+      .column-left h3{
+        width: 50%;
+        float: right;
+        margin-top: 7%;
+        font-size: 1.25rem;
+        margin-right: 3%;
+
+      }
+
+      .column-left p{
+        margin-top: 25%;
+        font-size: 1rem;
+        width: 35%;
+        margin-left: 55%;
+      }
+
+      /* Center Column */
+      .column-center{
+        clear: both;
+      }
+
+
+      .column-center img {
+        float:right;
+        width: 250px;
+        height: 220px;
+        margin-right: 6%;
+        
+      }
+
+      .column-center h3{
+        width: 50%;
+        float: left;
+        margin-top: 7%;
+        font-size: 1.25rem;
+        margin-right: 3%;
+
+      }
+
+      .column-center p{
+        margin-top: 25%;
+        font-size: 1rem;
+        width: 35%;
+        margin-left: 7%;
+      }
+
+      /* Right Column */
+      .column-right img {
+        float:left;
+        width: 250px;
+        height: 220px;
+        margin-left: 6%;
+      }
+
+      .column-right h3{
+        width: 50%;
+        float: right;
+        margin-top: 7%;
+        font-size: 1.25rem;
+        margin-right: 3%;
+
+      }
+
+      .column-right p{
+        margin-top: 25%;
+        font-size: 1rem;
+        width: 35%;
+        margin-left: 55%;
+      }
+
+      .column-right {
+        padding-bottom: 10%;
+      }
+
+
+      #content-info-mobile{
+        width: 85%;
+        margin-top: 10%;
+        clear: none;
+        display: inline-block;
+        margin-left: 10%;
+      }
+
+      .quotes  {
+        font-size: 1rem;
+        width: 50%;
+        float: left;
+        margin-top: 6%;
+      }
+
+      #content-info-mobile img {
+        float: right;
+        width: 25%;
+        height: 150px;
+        margin-right: 17%;
+        margin-top: 4%;
+      }
+
+
+      #content-info-customers{
+        width: 85%;
+        margin-top: 5%;
+        clear: none;
+        display: inline-block;
+        margin-left: 10%;
+        margin-bottom: 10%;
+      }
+
+      #content-info-customers img {
+        float: right;
+        width: 25%;
+        height: 150px;
+        margin-right: 17%;
+        margin-top: 4%;
+      }
+
+
+      
+}

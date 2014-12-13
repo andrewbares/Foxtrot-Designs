@@ -10,7 +10,7 @@ include "header.php";
 
 
 
-<p>Our expertise comes from <b>experience.</b> We have been designing web pages <b>since 2011.</b> Choosing an experienced wed design company like Foxtrot Designs ensures that your website will be professional and created in a timely manner.
+<p>Our expertise comes from <b>experience.</b> We have been designing web pages <b>since 2011.</b> Choosing an experienced web design company like Foxtrot Designs ensures that your website will be professional and created in a timely manner.
 </p>
 
 <p>Browse some of our pervious projects to get a sample of our work.</p>
