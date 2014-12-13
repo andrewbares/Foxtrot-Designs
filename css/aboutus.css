@@ -1,1 +1,7 @@
 /* page-specific CSS for about us goes here */
+
+.about{
+	margin: 0 auto;
+	width: 80%;
+	line-height: 1.4;
+}
