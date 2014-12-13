@@ -1,1 +1,77 @@
 /* page-specific CSS for pricing goes here */
+
+.clearfix{
+	clear: both;
+}
+
+.pricing-table-container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.pricing-table{
+	text-align: center;
+	display: table;
+	margin: 5rem auto;
+}
+
+.pricing-table ul{ 
+    border-width: 3px; 
+    border-style: solid; 
+    border-color: #E3E3E3; 
+    border-radius: 25px; 
+    margin: 2px; 
+    width: 185px;
+    text-align: center; 
+    list-style: none; 
+    padding: 5px; 
+    background-color: #FFFFFF;
+    display: table-cell;
+    min-height: 300px;
+} 
+.pricing-table ul li{ 
+    padding: 7px; 
+    background-color: #FFFFFF; 
+    border-width: 0px; 
+    border-style: solid; 
+    border-color: #B8B8B8; 
+    border-radius: 82px; 
+    border-bottom-width: 0px; 
+    font-size: 16px;
+    color: #444;
+} 
+.pricing-table li:nth-child(odd){ 
+    background-color: #FFFFFF; 
+} 
+.pricing-table ul .heading{ 
+    color: #FFFFFF; 
+    background-color: #D68D17; 
+    font-size: 22px; 
+} 
+.pricing-table ul .price{ 
+    color: #D68D17; 
+    background-color: #FFFFFF; 
+    font-size: 32px; 
+} 
+.pricing-table ul .action{ 
+    font-size: 16px; 
+    background-color: #F5F5F5; 
+    color: #4F4F4F; 
+} 
+.feature{ 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+    box-shadow: 0 0 7px rgba(0,0,0,.7); 
+} 
+.pricing-table .action a{ 
+    border-color: #B83737; 
+    border-width: 0px; 
+    border-radius: 2px; 
+    background-color: #EEEEEE; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    border-style: solid; 
+    color: #000000; 
+}
