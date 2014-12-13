@@ -26,11 +26,10 @@ include "header.php";
 	<!-- Andrew Bares -->
 	<div class="person">
 		<h3>Andrew Bares</h3>
-		<img class="person-head" src="http://placehold.it/150x150">
+		<img class="person-head" src="img/people/andrew.jpg">
 		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor ante, euismod vel quam ut, mattis blandit turpis. Donec nec ex sit amet ex pulvinar 
-		gravida dapibus sit amet quam. Aenean tempus velit velit, et laoreet felis mattis et. Nulla finibus sed turpis ac sodales. Praesent sit amet risus nisl.
-		<a href="andrew.php">Andrew's Page</a>
+		Andrew is a Windows Phone developer with a few web development skills. He also fights dragons in his free time. One of those facts is real.
+		<a href="http://u.arizona.edu/~andrewbares/etcv403/final-individual/">Andrew's Page</a>
 		</p>
 	</div>
 	
