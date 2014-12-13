@@ -1,5 +1,9 @@
 /* page-specific CSS for about us goes here */
 
+.clearfix{
+	clear: both;
+}
+
 .about{
 	margin: 0 auto;
 	width: 80%;
@@ -10,18 +14,18 @@
 	border-radius: 50%;
 	box-shadow: 0 0 12px #727279;
 	width: 150px;
+	display: block;
+	margin: 0 auto;
 }
 .person{
 	display: inline-block;
 	background: #fff;
 	color: #444;
-	text-align: center;
 	margin-bottom: 3rem;
 	margin-right: 20px;
 	width: 48%;
 	box-shadow: 0 0 2px #999;
 	padding: 20px;
-	height: 440px;
 	overflow: auto;
 }
 
@@ -33,4 +37,30 @@
 
 .person-link, .person-description{
 	margin-top: 2rem;
+}
+
+@media screen and (max-width: 1400px) {
+	.person{
+		width: 100%;
+		overflow: auto;
+
+	}
+
+	.person-head{
+		float: left;
+		margin-right: 36px;
+		margin-bottom: 36px;
+		margin-left: 18px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.person h3{
+		text-align: center;
+	}
+
+	.person-head{
+		float: none;
+		margin: 0 auto;
+	}
 }
