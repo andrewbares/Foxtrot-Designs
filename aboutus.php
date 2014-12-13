@@ -10,21 +10,66 @@ include "header.php";
 
 <!-- HTML for about us goes here -->
 <section class="about">
-	<h2>About Foxtrot Design</h2>
-	<p>
-		We had lots of fun designing this website. Even though we are a fictitious company, we have realized that
-		having a website is very important for any business. If you own a business it's important to maintain an online
-		presence, and having a website for that business is a crucial step forward in keeping your potential
-		customers informed about the services you offer.
-	</p>
-	<p>
-		Working on a team project remotely is a daunting task, but each of us finished the task we were
-		given in a timely manner. We were also given option to be creative with doing ofur respective tasks.
-	</p>
-	<p>
-		Overall it was a great a learning experience. We learned a lot about writing responsive CSS and semantic HTML markup.
-		We are all very excited about the future of web design, and what it has to offer.
-	</p>
+	
+	<h2>The People Behind Foxtrot Design</h2>
+	
+	<!-- Gopal Adhikari -->
+	<div class="person">
+		<h3>Gopal Adhikari</h3>
+		<img class="person-head" src="img/people/gopal.jpg">
+		<div class="person-description">
+			Tea enthusiast and all-round nerd, Gopal likes all things computers and hates writing biography in third person. Wait...
+		</div>
+		<div class="person-link"><a href="gopal.php">Gopal's Page</a></div>
+	</div>
+
+	<!-- Andrew Bares -->
+	<div class="person">
+		<h3>Andrew Bares</h3>
+		<img class="person-head" src="http://placehold.it/150x150">
+		<div class="person-description">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor ante, euismod vel quam ut, mattis blandit turpis. Donec nec ex sit amet ex pulvinar 
+		gravida dapibus sit amet quam. Aenean tempus velit velit, et laoreet felis mattis et. Nulla finibus sed turpis ac sodales. Praesent sit amet risus nisl.
+		</div>
+		<div class="person-link"><a href="andrew.php">Andrew's Page</a></div>
+	</div>
+	
+	<!-- Olivia Goldson -->
+	<div class="person">
+		<h3>Olivia Goldson</h3>
+		<img class="person-head" src="http://placehold.it/150x150">
+		<div class="person-description">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor ante, euismod vel quam ut, mattis blandit turpis. Donec nec ex sit amet ex pulvinar 
+		gravida dapibus sit amet quam. Aenean tempus velit velit, et laoreet felis mattis et. Nulla finibus sed turpis ac sodales. Praesent sit amet risus nisl.		</div>
+		<div class="person-link"><a href="olivia.php">Olivia's Page</a></div>
+	</div>
+
+	<!-- Aaron Stewart -->
+	<div class="person">
+		<h3>Aaron Stewart</h3>
+		<img class="person-head" src="http://placehold.it/150x150">
+		<div class="person-description">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor ante, euismod vel quam ut, mattis blandit turpis. Donec nec ex sit amet ex pulvinar 
+		gravida dapibus sit amet quam. Aenean tempus velit velit, et laoreet felis mattis et. Nulla finibus sed turpis ac sodales. Praesent sit amet risus nisl.
+		</div>
+		<div class="person-link"><a href="aaron.php">Aaron's Page</a></div>
+	</div>
+	
+	<!-- Jeannie Leonard -->
+	<div class="person">
+		<h3>Jeannie	Leonard</h3>
+		<img class="person-head" src="http://placehold.it/150x150">
+		<div class="person-description">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor ante, euismod vel quam ut, mattis blandit turpis. Donec nec ex sit amet ex pulvinar 
+		gravida dapibus sit amet quam. Aenean tempus velit velit, et laoreet felis mattis et. Nulla finibus sed turpis ac sodales. Praesent sit amet risus nisl.
+		</div>
+		<div class="person-link"><a href="jeannie.php">Jeannie's Page</a></div>
+	</div>
+	
+	
+	
+	
+	
 </section>
 
 <?php include "footer.php"; ?>
