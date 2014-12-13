@@ -18,7 +18,10 @@
     <link rel="stylesheet" type="text/css" href="css/global.css">
         
     <!--jQuery-->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+    <!--My own responsive grid view-->
+    <script src="js/responsive-grid.js"></script>
     
     <!--stylesheet for individual page-->
     <?php

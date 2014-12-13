@@ -1,1 +1,63 @@
 /* page specific CSS for the Projects page goes here */
+
+
+#intro {
+    padding: 12px 48px;
+    line-height: 1.5;
+}
+
+#intro p {
+    font-size: 1.3rem;
+}
+
+#intro p:first-of-type {
+    font-size: 1.6rem;
+}
+
+
+
+#projects-list {
+    width: 100%;
+    padding: 0 24px;
+}
+
+#projects-list-bottom-padding {
+    clear: both;
+    height: 24px;
+}
+
+#projects-list > * {
+    padding: 24px;
+}
+
+#projects-list img {
+    width: 100%;
+}
+
+
+#projects-list a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 800px) {
+    #intro p {
+        font-size: 1.2rem;
+    }
+    
+    #intro p:first-of-type {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #intro p {
+        font-size: 1.1rem;
+    }
+    
+    #intro p:first-of-type {
+        font-size: 1.3rem;
+    }
+}
