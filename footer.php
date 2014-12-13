@@ -12,9 +12,9 @@
 						<li><a href="#" id="twitter-icon" class="icon"><i class="fa fa-twitter"></i>Follow us on Twitter</a></li>
 					</ul>
 				</div>
-				<div id="copyright">Copyright 2014 &copy;<br>
-					Foxtrot Designs LLC <br>
-					Tucson, AZ
+				<div id="copyright">ETCV/INFV 403<br>
+					Fall semester<br>
+					2014
 				</div>
 			</div>
 			<nav id="bottom-nav">
