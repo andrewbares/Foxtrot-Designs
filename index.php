@@ -8,7 +8,6 @@ include "header.php";
 
 ?>
 
-
 <div id="slide" title="Lumia 2520 PSD from https://dribbble.com/shots/1291841--PSD-Nokia-Lumia-2520-Mockup, Lumia 800 PSD from livven.me, MacBook from https://dribbble.com/shots/1307753-retina-mbp-freebie">
 	<!--<img src="img/featured.jpg" alt="Main Page Image">-->
 </div>
@@ -53,9 +52,5 @@ include "header.php";
 		
 	</div>
 </div>
-			
-			
-		
-		
-		
+
 <?php include "footer.php"; ?>
