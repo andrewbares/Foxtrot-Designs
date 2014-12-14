@@ -36,10 +36,10 @@ include "header.php";
 	<!-- Olivia Goldson -->
 	<div class="person">
 		<h3>Olivia Goldson</h3>
-		<img class="person-head" src="http://placehold.it/150x150">
+		<img class="person-head" src="img/people/olivia.jpg">
 		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor ante, euismod vel quam ut, mattis blandit turpis. Donec nec ex sit amet ex pulvinar 
-		gravida dapibus sit amet quam. Aenean tempus velit velit, et laoreet felis mattis et. Nulla finibus sed turpis ac sodales. Praesent sit amet risus nisl.
+		Olivia is a junior at The University of Arizona where she studies Information Science and Arts. Originally from New York, she loves going 
+		home to the big apple where she hangouts with friends and family.
 		<a href="olivia.php">Olivia's Page</a>
 		</p>
 	</div>
@@ -58,10 +58,10 @@ include "header.php";
 	<!-- Jeannie Leonard -->
 	<div class="person">
 		<h3>Jeannie	Leonard</h3>
-		<img class="person-head" src="http://placehold.it/150x150">
+		<img class="person-head" src="img/people/jeannie.jpg">
 		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor ante, euismod vel quam ut, mattis blandit turpis. Donec nec ex sit amet ex pulvinar 
-		gravida dapibus sit amet quam. Aenean tempus velit velit, et laoreet felis mattis et. Nulla finibus sed turpis ac sodales. Praesent sit amet risus nisl.
+		Jeannie is currently attending University of Arizona South, working on her second bachelor of Network +. 
+		Her first degree was on Art. She is Korean and bilingual. She loves traveling and meeting new people.
 		<a href="jeannie.php">Jeannie's Page</a>
 		</p>
 	</div>
