@@ -121,6 +121,13 @@
     
 }
 
+@media screen and (max-width: 900px) {
+  
+    #slide{
+      background-size: contain;
+    }
+}
+
 @media screen and (max-width: 520px) {
     
     .column {
