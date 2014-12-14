@@ -19,7 +19,7 @@ include "header.php";
     
     <a href="http://hiking.andrewbares.net" target="_blank">
         <div class="large-4 columns">
-            <img src="img/project1.jpg"/>
+            <img src="img/project1.jpg" alt="An screenshot Andrew's Hiking website" />
             <h4>Hiking Website</h4>
             <p>A website for posting trip logs and hiking articles.</p>
         </div>
@@ -27,7 +27,7 @@ include "header.php";
     
     <a href="http://u.arizona.edu/~andrewbares/etcv403/assignment9/" target="_blank">
         <div class="large-4 columns">
-            <img src="img/project2.jpg"/>
+            <img src="img/project2.jpg" alt="An screenshot of the Strange Planes website made by us" />
             <h4>Strange Planes</h4>
             <p>Responsive site documenting odd planes.</p>
         </div>
@@ -35,7 +35,7 @@ include "header.php";
     
     <a href="http://gopaladhikari.com/" target="_blank">
         <div class="large-4 columns">
-            <img src="img/project3.jpg"/>
+            <img src="img/project3.jpg" alt="An screenshot of Gopal's blog made by us"/>
             <h4>Personal Blog</h4>
             <p>A personal blog for Gopal, with the theme created by himself</p>
         </div>
@@ -43,7 +43,7 @@ include "header.php";
     
     <a href="http://apps.microsoft.com/windows/en-us/app/power-planner-homework-planner/7bb00b6b-7332-42e5-82a8-61da90418594" target="_blank">
         <div class="large-4 columns">
-            <img src="img/project4.jpg"/>
+            <img src="img/project4.jpg" alt="An screenshot of Andrew's Homework Planner for Windows 8.1" />
             <h4>Homework Planner for Windows 8.1</h4>
             <p>A modern Windows 8.1 app that helps students manage their academic life.</p>
         </div>
@@ -51,7 +51,7 @@ include "header.php";
     
     <a href="http://www.windowsphone.com/en-us/store/app/8list-for-craigslist/efefb246-54cf-45d6-b039-492c3060f1ad" target="_blank">
         <div class="large-4 columns">
-            <img src="img/project5.jpg"/>
+            <img src="img/project5.jpg" alt="An screenshot of Craigslist client for Windows Phone" />
             <h4>Craigslist client for Windows Phone</h4>
             <p>Browse craigslist seamlessly on your Windows Phone.</p>
         </div>

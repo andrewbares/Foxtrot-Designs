@@ -45,7 +45,7 @@ include "header.php";
 		
 	</div>
 	<div id="content-info-customers" class="quote">
-		<img src="img/quote2.jpg" alt="People dining at restaurant. Image from http://adventurejay.com/blog/index.php?m=05&y=13 under creative commons."/>
+		<img src="img/quote2.jpg" alt="People dining at restaurant. Image from http://adventurejay.com/blog/index.php?entry=Santa-Fe-Half-Century used under creative commons license."/>
 		
 		<p>Our restaurant has served <strong>more customers</strong> in the last month than it ever has in the entire year!</p>
 

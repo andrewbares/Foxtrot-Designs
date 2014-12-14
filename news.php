@@ -11,7 +11,7 @@ include "header.php";
 
 
 <article class="large-4 columns">
-<img src="img/news1.jpg" />
+<img src="img/news1.jpg" alt="An Admin center screenshot from our latest design" />
 <h1>Why having an admin center is important</h1>
 <h4> Wednesday, Nov 14th, 2014</h4>
 <p>Description with multiple lines of text that acts as a preview of the actual story. Maybe the first three lines of the story or something. Three lines is a lot of text! Get some lorem ipsum up in this hizzle.</p>
@@ -25,7 +25,7 @@ include "header.php";
 
 
 <article class="large-4 columns">
-<img src="img/news2.jpg"/>
+<img src="img/news2.jpg" alt="Various mobile devices supporting responsive web pages" />
 <h1>The importance of supporting mobile and tablet</h1>
 <h4>Friday, Nov 1st, 2014</h4>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -34,7 +34,7 @@ include "header.php";
 <hr>
     
 <article class="large-4 columns">
-<img src="img/news3.jpg"/>
+<img src="img/news3.jpg" alt="Foxtrot Designs Logo" />
 <h1>Happy Halloween</h1>
 <h4> Thursday, Oct 31st, 2014</h4>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
