@@ -33,6 +33,11 @@ body {
   background: #386189;
 }
 
+section.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
 /* BEGIN HEADER STYLE */
 #logo-hero {
   width: 96px;

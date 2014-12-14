@@ -47,10 +47,10 @@ include "header.php";
 	<!-- Aaron Stewart -->
 	<div class="person">
 		<h3>Aaron Stewart</h3>
-		<img class="person-head" src="http://placehold.it/150x150">
+		<img class="person-head" src="img/people/aaron.png">
 		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor ante, euismod vel quam ut, mattis blandit turpis. Donec nec ex sit amet ex pulvinar 
-		gravida dapibus sit amet quam. Aenean tempus velit velit, et laoreet felis mattis et. Nulla finibus sed turpis ac sodales. Praesent sit amet risus nisl.
+		Just a college student from Annapolis, Maryland that recently discovered this super magical drink called ‘coffee’ that is now consumed on the daily. 
+		Also, loves meeting new people and being surrounded by friends and family and has a strong passion for Web-Design.
 		<a href="aaron.php">Aaron's Page</a>
 		</p>
 	</div>
